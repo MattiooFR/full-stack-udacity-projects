@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "Fyuur"
+version = "0.1.0"
+description = "Booking website for venues and artists, made with flask"
+authors = ["MattiooFR <13595614+MattiooFR@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+python-dateutil = "2.6.0"
+flask-moment = "^0.9.0"
+flask-wtf = "^0.14.3"
+babel = "^2.8.0"
+flask_sqlalchemy = "^2.4.1"
+flask-migrate = "^2.5.2"
+psycopg2 = "^2.8.4"
+phonenumbers = "^8.11.4"
+werkzeug = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.4.4"
+autopep8 = "^1.5"
+jedi = "^0.16.0"
+pytest = "^5.3.5"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
