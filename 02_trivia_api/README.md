@@ -2,7 +2,7 @@
 
 ## Full Stack Trivia
 
-Udacity is invested in creating bonding experiences for its employees and students. A bunch of team members got the idea to hold trivia on a regular basis and created a  webpage to manage the trivia app and play the game. The API built here helps users interact with the database which stores the trivia questions as well as their associated categories giving them the ability to retrieve, create, delete, as well as search questions based on key words.
+Udacity is invested in creating bonding experiences for its employees and students. A bunch of team members got the idea to hold trivia on a regular basis and created a webpage to manage the trivia app and play the game. The API built here helps users interact with the database which stores the trivia questions as well as their associated categories giving them the ability to retrieve, create, delete, as well as search questions based on key words.
 
 ## Getting Started
 
