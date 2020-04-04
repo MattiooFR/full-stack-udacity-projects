@@ -69,13 +69,24 @@ The `--reload` flag will detect file changes and restart the server automaticall
         - can `get:drinks-detail`
     - Manager
         - can perform all actions
-7. Test your endpoints with [Postman](https://getpostman.com). 
+7. Test your endpoints with [Postman](https://getpostman.com).
     - Register 2 users - assign the Barista role to one and Manager role to the other.
     - Sign into each account and make note of the JWT.
     - Import the postman collection `./starter_code/backend/udacity-fsnd-udaspicelatte.postman_collection.json`
     - Right-clicking the collection folder for barista and manager, navigate to the authorization tab, and including the JWT in the token field (you should have noted these JWTs).
     - Run the collection and correct any errors.
     - Export the collection overwriting the one we've included so that we have your proper JWTs during review!
+
+Login URL
+https://mattioo.eu.auth0.com/authorize?audience=coffeeshop&response_type=token&client_id=o1kzeGLW94BQEsW951GZ7LEY4O2dB3T5&redirect_uri=http://localhost:8080/login-results
+
+barista@gmail.com
+Barista81
+eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik56TTFRekF3UWpWRVJqRkRSamM1UlVFMk9ESTJOVUZGT0Rnek5qbEdNRFl5TnpBd1FqRXdNQSJ9.eyJpc3MiOiJodHRwczovL21hdHRpb28uZXUuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDVlODg4ODZmNDQ3ZWZkMGJlMDczMzNiMyIsImF1ZCI6ImNvZmZlZXNob3AiLCJpYXQiOjE1ODYwMDY2MTUsImV4cCI6MTU4NjAxMzgxNSwiYXpwIjoibzFremVHTFc5NEJRRXNXOTUxR1o3TEVZNE8yZEIzVDUiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImdldDpkcmlua3MtZGV0YWlsIl19.APQ04i3YSSuyOOhjB6lLd3HBGgjLqvXa2Vz8NF0Vz1CxX-tIixJ9bYuAYR8ZqDkR8hX4StLIxwL88WG8grRM9hR1_LKn_G5cVCaz4Nz0bw_2_MpYIoSR3lpUh2XNad4365eAXtZ8BOnTFHN4io-2k0lJNe_3ZqrcB-eHfXwIrRshNReuwzNVFaKcf6EsjxDiIi-v597zkWLWN4O8A1KgH4XhZxqE2gGpspamO9sW7pkpH4GkFUh8Izogw9A01fgtRPtjT8yNNue_8cy2Z_3TxL5UZGh9Xgj9guC7EEtKBVc3QMLyVCEGbcsmYU3YXe9IRHqX58Jemn_0OHI9m4cKxA
+
+manager@gmail.com
+Manager81
+eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik56TTFRekF3UWpWRVJqRkRSamM1UlVFMk9ESTJOVUZGT0Rnek5qbEdNRFl5TnpBd1FqRXdNQSJ9.eyJpc3MiOiJodHRwczovL21hdHRpb28uZXUuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDVlODg4OGI4NDQ3ZWZkMGJlMDczMzNlYiIsImF1ZCI6ImNvZmZlZXNob3AiLCJpYXQiOjE1ODYwMDY2NjIsImV4cCI6MTU4NjAxMzg2MiwiYXpwIjoibzFremVHTFc5NEJRRXNXOTUxR1o3TEVZNE8yZEIzVDUiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTpkcmlua3MiLCJnZXQ6ZHJpbmtzLWRldGFpbCIsInBhdGNoOmRyaW5rcyIsInBvc3Q6ZHJpbmtzIl19.WnVfbOTt1XSYA1hHPCixiJtK7kwMzrL978xIbym-gDtskjjHxYtXw43UsRVbivkdZEK3GzBeOL45-20PQwyU3-tpjRTFxCYLgFWH3QXovt0V5D3egNXxCSPdGOwTeJSXL5Qwmt5dTez3RJFdozeekHk4id9cknHq2XbrjU_gQNjgk-TcIOf7DaUAOnf-DyOs_RQ1Iy0sU38oCXFlnpwGvaFnWuIlVajIp-WcCTCqJ8ERF9zU7Eh9oaV6vrmW8xaWKxN1PYQeLCjYrLhmGejyrzpNHZK4P0HM0Olvr9bRs1k3cWgE9Ci36rxLgu7FsulP8ORNvK-hqwCF869Pw-Zh_w
 
 ### Implement The Server
 
