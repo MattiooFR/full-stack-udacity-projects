@@ -26,6 +26,38 @@ The second part of the project was to create API endpoints test. Doing tests ens
 * Protect for unexpected bug when doint update to the API
 * Ensure that the error are handled as expected
 
-For more information look at the [README](02_trivia_api/backend/README.md) inside the Fyyur folder.
+For more information look at the [README](02_trivia_api/README.md) inside the Fyyur folder.
 
 ## Coffee Shop
+
+The goal of this project was to use Auth0 services to create an API that would serve drinks and menu from a database. Using **roles** and **permissions** we can restrict the access to specific endpoint depending on the user access level located in the permissions sent through the JWT after we logged with Auth0, the external login service.
+
+We also used Postman application to test all our endpoints.
+
+For more information look at the [README](03_coffee_shop/README.md) inside the Coffee Shop folder.
+
+## Kubernetes EKS
+
+In this project we had to containerize and deploy a Flask API to a Kubernetes cluster using Docker, AWS EKS, CodePipeline, and CodeBuild. We also used Gunicorn for using our flask app in production.
+
+For more information look at the [README](04_deploy_flask_kubernetes_eks/README.md) inside the Flask Kubernetes EKS folder.
+
+## Capstone Project
+
+For this last project, we had to start from scratch and build an API that was using all the previous tools we learnt, such as :
+
+* Coding in Python 3
+* Relational Database Architecture
+* Modeling Data Objects with SQLAlchemy
+* Internet Protocols and Communication
+* Developing a Flask API
+* Authentication and Access
+* Authentication with Auth0
+* Authentication in Flask
+* Role-Based Access Control (RBAC)
+* Testing Flask Applications
+* Deploying Applications
+
+I decided to build a photo album creation website where you can create anonymous album (you can log in too) where the users can only see one different picture everyday. The project is not live yet but will be soon !
+
+Check the repository for the capstone project [here](https://github.com/MattiooFR/1pic1day) for more informations !

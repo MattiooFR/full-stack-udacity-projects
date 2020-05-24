@@ -7,7 +7,7 @@ Parameters:
   EksClusterName:
     Type: String
     Description: The name of the EKS cluster created
-    Default: eksctl-eksctl-demo-cluster
+    Default: simple-jwt-api
     MinLength: 1
     MaxLength: 100
     ConstraintDescription: You must enter the EKS cluster name
@@ -15,7 +15,7 @@ Parameters:
   GitSourceRepo:
     Type: String
     Description: GitHub source repository - must contain a Dockerfile and buildspec.yml in the base
-    Default: full-stack-udacity-projects
+    Default: deploy-flask-kubernetes-eks
     MinLength: 1
     MaxLength: 100
     ConstraintDescription: You must enter a GitHub repository name
